@@ -276,23 +276,6 @@
   $('figure-dialog-close')?.addEventListener('click', () => dialog.close());
   dialog?.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
 
-  $('bibtex').textContent = data.preliminaryBibtex;
-  $('copy-bibtex')?.addEventListener('click', async () => {
-    const value = data.preliminaryBibtex;
-    let copied = false;
-    try { await navigator.clipboard.writeText(value); copied = true; } catch (_) {
-      const field = document.createElement('textarea');
-      field.value = value;
-      field.style.cssText = 'position:fixed;opacity:0;pointer-events:none;';
-      document.body.append(field);
-      field.select();
-      copied = document.execCommand('copy');
-      field.remove();
-      $('copy-bibtex').focus();
-    }
-    $('copy-status').textContent = copied ? 'Citation copied.' : 'Select the citation below and copy it manually.';
-  });
-
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) { showcase?.pause(); pauseComparison(); }
   });

@@ -19,7 +19,7 @@ Open `index.html` in a browser. All page resources are stored locally and use re
 
 ## Page content
 
-The sections are the project title, the manuscript's full abstract, Demonstrations, Comparisons, Overview Framework, Benchmark, and Citation. Demonstrations follow the instruments, cooperage, glasswork, locksmith, and net-making order. Comparisons follow the notebook, painter, and recipe order. The qualitative ablation figure (Fig. 3) follows Fig. 2 in the framework section.
+The sections are the project title, the manuscript's full abstract, Demonstrations, Comparisons, Overview Framework, and Benchmark. Demonstrations follow the instruments, cooperage, glasswork, locksmith, and net-making order. Comparisons follow the notebook, painter, and recipe order. The qualitative ablation figure (Fig. 3) follows Fig. 2 in the framework section.
 
 The benchmark table reproduces the manuscript. Avg is the mean of seven video metrics, excluding PEC. Shared playback controls preserve the source clips' relative timing; shorter clips hold their final frame.
 

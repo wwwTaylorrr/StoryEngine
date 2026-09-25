@@ -211,7 +211,6 @@
     }
   ],
   "resultsNote": "All metrics are higher-is-better. Avg is the equal-weight mean of seven video metrics, excluding plan-only PEC. Scores are automatic benchmark metrics, not human preference ratings.",
-  "preliminaryBibtex": "@misc{storyengine,\n  title = {StoryEngine: A State-Grounded Agentic Framework for Video Storytelling},\n  note  = {Manuscript}\n}",
   "showcases": [
     {
       "id": "gauge",
